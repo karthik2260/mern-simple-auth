@@ -31,7 +31,7 @@ const handleLogout = (e) => {
 
 const fetchProducts = async () => {
     try{
-        const url = "https://mern-simple-auth-api.vercel.app/products";
+        const url = "http://localhost:3001/products";
         const headers = {
             headers : {
                 'Authorization' : localStorage.getItem('token')
